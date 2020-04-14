@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--JUMBOTRON HEADER-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="Heading">
+          <!--Default Heading-->
+          <h1 class="display-4 cityHeading">Weather Dashboard</h1>
+        </div>
+      </div>
+    
+    <!--Container for the remainder of the weather webpage-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <!--USER SEARCH INPUT-->
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="searchTerm" placeholder="Search City" aria-label="Recipient's username" aria-describedby="button-addon">
+                    <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="searchButton">Search</button>
+                    </div>
+                </div>
+                <!--Sub-Navigation bar which saves the cities the user has searched-->
+                <ul class="historyCity">
+                    <!--Local Storage Search History goes here-->
+                </ul>
+            </div>
+            <div class="col-md-9">
+                <!--Card Area to show City Information-->
+                <div class="card">
+                    <div class="card-body">
+                      <h2 id = "weatherToday"></h2>
+                      <p id = "temperature">Temperature:</p>
+                      <p id = "humidity">Humidity:</p>
+                      <p id = "windSpeed">Windspeed:</p>
+                      <p id = "uvIndex">UV Index:</p>
+                    </div>
+                </div>
+                <h2 class="forecast">5-Day Forecast:</h1>
+                <!--Card Decking layout to show weather for next 5 days-->
+                <div class="card-deck">                    
+                    <!--Day 1-->
+                    <!--<div class="card">
+                      <img src="./cloud.png" class="card-img-top" alt="sun">
+                      <div class="card-body">
+                        <h5 class="forecastDay">Today</h5>
+                        <p id = "date">Weather Information</p>
+                        <p id = "thumbnail"></p>
+                        <p id = "forecastTemp"></p>
+                        <p id = "forecastHumid"></p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </div>
+                    </div>-->
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+</html>
