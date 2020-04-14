@@ -1,0 +1,50 @@
+h1
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2
+{
+    text-align:left;
+    
+}
+.jumbotron
+{
+    background-color: deepskyblue;
+}
+
+.card-body
+{
+    border-radius: 15px;
+    border: 2px solid deepskyblue;
+}
+
+.forecastCard
+{
+    background-color: deepskyblue;
+    padding: 10px;
+    margin: auto;
+    border-bottom: 20px;
+}
+
+.card
+{
+    border: 0px;
+}
+
+.historyCity
+{
+    padding-inline-start: 0px;
+}
+
+.icons
+{
+    width: 50px;
+    height: 50px;
+}
+
+.forecast
+{
+    padding-top: 20px;
+}
