@@ -15,4 +15,4 @@
 
 ### Sample Image provided for the assignment
 ![Image of Weather Application]
-(image01.png)
+(https://github.com/goggles320/Weather/blob/master/image01.png)
