@@ -11,8 +11,8 @@
 - [x] View future conditions for that city
 - [x] View 5-day forecast that displays date, icon representation of weather conditions, the temperature and humidity
 - [x] View the city again when clicking on search history and is presented with current and future conditions for that city
-- [x] Presented with the last searched city forecast
+- [ ] Presented with the last searched city forecast
 
 ### Sample Image provided for the assignment
 ![Image of Weather Application]
-(
+(image01.png)
