@@ -14,5 +14,5 @@
 - [ ] Presented with the last searched city forecast
 
 ### Sample Image provided for the assignment
-![Image of Weather Application]
-(https://github.com/goggles320/Weather/blob/master/image01.png)
+![GitHub Logo](/image01.png)
+
