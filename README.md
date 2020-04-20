@@ -16,3 +16,5 @@
 ### Sample Image provided for the assignment
 ![GitHub Logo](/image01.png)
 
+##### Link to repo
+https://goggles320.github.io/Weather/
